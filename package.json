@@ -1,0 +1,26 @@
+{
+  "name": "daybreak-utils",
+  "version": "0.0.0",
+  "description": "Utilities",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "coverage": "vitest run --coverage",
+    "prepublishOnly": "npm run build",
+    "test": "vitest run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "@vitest/coverage-v8": "^5.0.4",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.4"
+  },
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ]
+}
